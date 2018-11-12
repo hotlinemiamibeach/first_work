@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'ComfortaaRegular';
+    src: url('../fonts/ComfortaaRegular.eot');
+    src: url('../fonts/ComfortaaRegular.eot') format('embedded-opentype'),
+         url('../fonts/ComfortaaRegular.woff2') format('woff2'),
+         url('../fonts/ComfortaaRegular.woff') format('woff'),
+         url('../fonts/ComfortaaRegular.ttf') format('truetype'),
+         url('../fonts/ComfortaaRegular.svg#ComfortaaRegular') format('svg');
+}
+@font-face{
+	font-family: 'ComfortaaBold';
+    src: url('../fonts/ComfortaaBold.eot');
+    src: url('../fonts/ComfortaaBold.eot') format('embedded-opentype'),
+         url('../fonts/ComfortaaBold.woff2') format('woff2'),
+         url('../fonts/ComfortaaBold.woff') format('woff'),
+         url('../fonts/ComfortaaBold.ttf') format('truetype'),
+         url('../fonts/ComfortaaBold.svg#ComfortaaBold') format('svg');
+}
+@font-face {
+    font-family: 'DidactGothicRegular';
+    src: url('../fonts/DidactGothicRegular.eot');
+    src: url('../fonts/DidactGothicRegular.eot') format('embedded-opentype'),
+         url('../fonts/DidactGothicRegular.woff2') format('woff2'),
+         url('../fonts/DidactGothicRegular.woff') format('woff'),
+         url('../fonts/DidactGothicRegular.ttf') format('truetype'),
+         url('../fonts/DidactGothicRegular.svg#DidactGothicRegular') format('svg');
+}
+a {
+    text-decoration: none;
+}
+*{
+    background-color: #627783;
+    margin:0;
+    padding: 0;
+}
+.headr {
+    padding:0 20% 0 20%;
+    padding-top: 6%;
+    text-align: center;
+    font-size: 56px;
+    font-family:'ComfortaaRegular';
+    color:#8ec7de;
+}
+.futer{
+    font-size: 16px;
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+}
+.mini_nav li {
+    display: inline-block;
+}
+.mini_nav li a {
+    transition:all 0.3s;
+    color:#52a3c3;
+    text-decoration: none;
+    font-size:20px;
+}
+.mini_nav li a:hover {
+    transition:all 0.3s;
+    color:#8ec7de;
+}
+.adik-2{
+    margin: 0 auto;
+    margin-top: 4%;
+    width:26%;
+    height:2px;
+    background-color: #8ec7de;
+}
+.someinfo{
+    padding:0 20% 0 20%;
+    text-align: center;
+    margin-top: 4%;
+}
+.headinfo{
+    font-size:33px;
+    font-family:'ComfortaaRegular';
+    color:#8ec7de;
+}
+.word{
+    margin-top: 2%;
+    font-size:21px;
+    font-family: 'DidactGothicRegular', cur;
+    color:#8ec7de;
+}
+.content_je{
+    padding:0 10% 0 10%;
+    height: auto;
+}
+.block {
+    padding-top:4%;
+    width:100%;
+}
+.photo{
+    z-index: 0;
+    width:100%;
+    height:auto;
+}
+.teg {
+    font-family: 'ComfortaaRegular';
+    font-size: 18px;
+    transition:all 0.3s;
+    margin-top: -3.7%;
+    z-index: 1;
+    color: white;
+    width: 98%;
+    height: 4%;
+    padding:1%;
+    background-color: black !important;
+    display: block;
+    opacity: 0;
+    bottom: 0 !important;
+}
+.photo:hover .teg{
+    transition:all 0.3s;
+    opacity: 0.5;
+}
+.tword{
+    transition:all 0.3s;
+    color:#8ec7de;
+    background-color: black !important;
+    opacity: 1;
+}
+.tword:hover {
+    transition:all 0.3s;
+    color:#ff07f5;
+}
+@media screen and (min-width: 1025px) and (max-width: 1370px) {
+    .headr {
+        font-size: 39.76px;
+    }
+    .futer {
+        font-size:12px;
+    }
+    .word{
+        font-size:15px;
+    }
+    .mini_nav li a{
+        font-size:14.5px;
+    }
+    .headinfo{font-size:22.5px;}
+    .adik-2{height:1px;}
+    .teg{font-size:14px;}
+    .teg{margin-top: -3.75%;}
+}
+@media screen and (min-width:769px) and (max-width: 1024px) {
+    .headr {font-size:30px;}
+    .mini_nav li a{font-size:13px;}
+    .headinfo{font-size:24px;}
+    .word{font-size:16px;}
+    .teg{font-size: 13px;padding:1% 0 0.53% 2%;}
+}
+@media screen and (min-width:601px) and (max-width: 768px) {
+    .headr {font-size:26px;}
+    .mini_nav li a{font-size:12px;}
+    .headinfo{font-size:22px;}
+    .word{font-size:15px;}
+    .teg{font-size: 11px;padding:0.45% 0 0.42% 1%;width:99%;}
+}
+@media screen and (min-width:500px) and (max-width:600px){
+    .headr {font-size:24px;}
+    .mini_nav li a{font-size:13px;}
+    .headinfo{font-size:22px;}
+    .word{font-size:15px;}
+    .teg{font-size: 10px;padding:0.2% 0 0.3% 1%;width:99%;}
+}
+@media screen and (max-width:499px) {
+    .headr {font-size:24px;}
+    .mini_nav li a{font-size:13px;}
+    .headinfo{font-size:22px;}
+    .word{font-size:15px;}
+    .teg{font-size: 10px;width:103.48%;
+        padding: 0.2% 0 0.15% 1%;}
+}

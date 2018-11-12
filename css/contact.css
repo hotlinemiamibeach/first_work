@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'ComfortaaRegular';
+    src: url('../fonts/ComfortaaRegular.eot');
+    src: url('../fonts/ComfortaaRegular.eot') format('embedded-opentype'),
+         url('../fonts/ComfortaaRegular.woff2') format('woff2'),
+         url('../fonts/ComfortaaRegular.woff') format('woff'),
+         url('../fonts/ComfortaaRegular.ttf') format('truetype'),
+         url('../fonts/ComfortaaRegular.svg#ComfortaaRegular') format('svg');
+}
+* {	
+	font-family: 'ComfortaaRegular';
+	margin: 0;
+	padding: 0;
+}
+.main {
+	height: 100vh;
+	width:100%;
+	background: url(../images/contact.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.content {
+	margin: 0 15% 0 15%;
+}
+.welcome {
+	text-align: right;
+	padding-top: 15%;
+	font-family: 'ComfortaaRegular';
+	font-size:30px;
+	color: #fff;
+}
+.contact {
+	padding-top: 7%;
+	float: right;
+}
+.form{
+
+}
+#name, #email {
+	padding-left: 0.3em;
+	outline: 0;
+    outline-offset: 0;
+	cursor: auto;
+	height: 1.5em;
+	border-radius: 0.27em;
+	color:white;
+	font-size: 20px;
+	background-color: transparent;
+	border: 2px solid black;
+	font-family: 'ComfortaaRegular';
+}
+#name{
+	margin-right: 3.5em;
+}
+#message{
+	padding: 0.2em 0.3em 0.2em 0.3em;
+	width:20em;
+	height:15em;
+	color:white;
+	outline: 0;
+	font-size: 20px;
+    outline-offset: 0;
+    border-radius: 0.27em;
+    cursor: auto;
+    background-color: transparent;
+    border: 2px solid black;
+    resize: vertical;
+    max-height: 20em;
+}
+.enter{
+	padding-top: 2.5em;
+}
+.btn {
+	transform: all 0.4s;
+	cursor:pointer;
+	font-size: 20px;
+	margin-top: 1.5em;
+	padding: 0.1em 0.3em;
+	border-radius: 0.27em;
+	background-color: transparent;
+	border: 2px solid black;
+	color: white;
+}
+.btn:hover{
+	transform: all 0.4s;
+	border: 2px solid #383535;
+}
+
+
+
+
+
+
+
+
+
+
+form>input:focus, textarea:focus {
+	border-color: #312f2f;
+}
+input::-webkit-input-placeholder {
+color: black !important;
+} 
+input:-moz-placeholder { /* Firefox 18- */
+color: black !important;  
+}
+input::-moz-placeholder {  /* Firefox 19+ */
+color: black !important;  
+}
+input:-ms-input-placeholder {  
+color: black !important;  
+}
+textarea::-webkit-input-placeholder {
+color: black !important;
+}
+textarea::-moz-placeholder { /* Firefox 18- */
+color: black !important;  
+}
+textarea::-moz-placeholder {  /* Firefox 19+ */
+color: black !important;  
+}
+textarea::-ms-input-placeholder {  
+color: black !important;  
+}
+
+
+
+
+
+@media screen and (min-width: 1025px) and (max-width: 1370px) {
+    .welcome{font-size:21.85px;}
+    #name,#email,#message{border: 1px solid black;
+  	font-size:16px;}
+	.btn{font-size:16px;
+		border: 1px solid black;}
+	.btn:hover{
+	transform: all 0.4s;
+	border: 1px solid #383535;
+}
+
+
+}
